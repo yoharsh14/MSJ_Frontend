@@ -19,7 +19,7 @@ const Home = () => {
       </div>
       <div className="flex flex-wrap gap-2 justify-start">
         {articles ? (
-          articles.map((el) => (
+          articles.map((el, key) => (
             <Card key={el._id} darkMode={darkMode} el={el} />
           ))
         ) : (

@@ -1,6 +1,6 @@
 export const articles = [
   {
-    _id: 1,
+    _id: "3GlCTCSmWokpQLR4",
     title: "The Sandbox Explained: A Beginner's Guide",
     highlight:
       "The Sandbox is a decentralized virtual world platform built on the Ethereum blockchain.",
@@ -38,7 +38,7 @@ The Sandbox is a groundbreaking platform that offers a glimpse into the future o
 </p>`,
   },
   {
-    _id: 2,
+    _id: "DvBBE8nELpMudDGe",
     title:
       "The Sandbox is a decentralized virtual world platform built on the Ethereum blockchain.",
     highlight: "The gaming landscape is undergoing a seismic shift...",
@@ -73,7 +73,7 @@ The future of gaming is filled with endless possibilities. The Sandbox, Upland M
 </p>`,
   },
   {
-    _id: 3,
+    _id: "5GJWy6T958G3Jedh",
     title:
       "The Sandbox vs. Upland Me vs Decentraland vs Gala Games vs Yield Guild Games: A Comparison",
     highlight: "The metaverse, a virtual universe where users can...",
@@ -137,7 +137,7 @@ Yield Guild Games is a decentralized autonomous organization (DAO) that focuses 
 </p>`,
   },
   {
-    _id: 4,
+    _id: "UYVjXX8Mb7kLII60",
     title:
       "Open vs. Closed Metaverses: A Battle for the Future of Virtual Reality",
     highlight: "The metaverse, a collective virtual shared space...",
@@ -198,7 +198,7 @@ By carefully considering these factors, we can work towards building a metaverse
 </p>`,
   },
   {
-    _id: 5,
+    _id: "fljeByxYyon2hUaX",
     title: "Centralised vs Decentralised Metaverses: A Comparative Analysis",
     highlight: "The concept of the metaverse, a virtual reality space...",
     imgUrl:
@@ -241,7 +241,7 @@ As the metaverse continues to evolve, it is likely that both centralised and dec
 </p>`,
   },
   {
-    _id: 6,
+    _id: "17QDR7eOSbRv2lbh",
     title:
       "Open/Closed Centralized Metaverse vs Open/Closed Decentralized Metaverse: A Comparison",
     highlight: "",
@@ -344,7 +344,7 @@ Disadvantages:<br>
 </p>`,
   },
   {
-    _id: 7,
+    _id: "TqhYghkft3RiwDbL",
     title:
       "Types of Metaverses - Social Metaverse, Gaming Metaverse and Enterprise Metaverse: A Comparison",
     highlight: "",
@@ -405,7 +405,7 @@ Examples:<br>
 </p>`,
   },
   {
-    _id: 8,
+    _id: "hH7tKznFio9VBwuU",
     title:
       "The Sandbox Partners with Upland Me: A New Era of Metaverse Integration and Interoperability",
     highlight: "The metaverse, a collective virtual shared...",
@@ -443,7 +443,7 @@ The partnership between The Sandbox and Upland Me marks a significant milestone 
 </p>`,
   },
   {
-    _id: 9,
+    _id: "vI15AD4GcOduAccx",
     title: "How Partnerships Are Shaping The Sandbox's Future",
     highlight: "The metaverse, a collective virtual shared...",
     imgUrl:
@@ -481,7 +481,7 @@ Despite these challenges, the opportunities for partnerships in the metaverse ar
 </p>`,
   },
   {
-    _id: 10,
+    _id: "PjA5HKGxicXD8QFk",
     title: "Creating Your Own Game on The Sandbox: A Step-by-Step Guide",
     highlight: "The Sandbox, a decentralized virtual world...",
     imgUrl:
@@ -527,7 +527,7 @@ Conclusion<br>
 Creating your own game on The Sandbox is a rewarding experience that allows you to unleash your creativity and connect with a global community of gamers. By following these steps and leveraging the platform's tools and resources, you can bring your game ideas to life and share them with the world.</p>`,
   },
   {
-    _id: 11,
+    _id: "VMM7AdEpiAdlkmNu",
     title: "The Sandbox's Game Maker Tool: A Powerful Creation Platform",
     highlight: "The Sandbox, a decentralized virtual world...",
     imgUrl:
@@ -559,7 +559,7 @@ The Sandbox's Game Maker tool is a powerful creation platform that has revolutio
 </p>`,
   },
   {
-    _id: 12,
+    _id: "YFTt5UAN08Akkr5H",
     title: "Play-to-Earn and Monetization Model in the Metaverse",
     highlight: "The Game Maker tool is a user-friendly interface...",
     imgUrl:
@@ -596,8 +596,9 @@ Conclusion<br>
 The metaverse is a rapidly evolving landscape with immense potential for economic growth and social impact. The P2E model offers a promising approach to monetizing virtual experiences and creating new opportunities for users. By understanding the various monetization models employed by platforms like The Sandbox, Upland Me, Decentraland, Axie Infinity, Yield Guild Games, and Gala Games, we can gain insights into the future of the metaverse and the potential of P2E as a sustainable economic model. As the metaverse continues to evolve, it is likely that we will see even more innovative and exciting P2E models emerge.</p>`,
   },
   {
-    _id: 13,
-    title: "A Comprehensive Guide to Earning Money in Upland Me: Play-to-Earn Strategies",
+    _id: "W7TcKRuoAtJHz1KZ",
+    title:
+      "A Comprehensive Guide to Earning Money in Upland Me: Play-to-Earn Strategies",
     highlight: "The Sandbox is a decentralized virtual...",
     imgUrl:
       "https://images.unsplash.com/photo-1619472032094-eadb7ec01655?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2FuZGJveCUyMG1ldGF2ZXJzZXxlbnwwfHwwfHx8MA%3D%3D",
@@ -640,7 +641,7 @@ Upland Me offers a unique opportunity to earn real-world value through virtual r
 </p>`,
   },
   {
-    _id: 14,
+    _id: "Dkd4jQ5QcHiWHhqc",
     title: "How to Earn Money in Decentraland: A Guide to Play-to-Earn",
     highlight: "The Sandbox is a decentralized virtual...",
     imgUrl:
