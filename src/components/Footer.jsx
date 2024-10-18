@@ -7,7 +7,6 @@ import {
   FaGithubSquare,
 } from "react-icons/fa";
 import { AiFillGoogleSquare } from "react-icons/ai";
-import { useSelector } from "react-redux";
 
 const Footer = () => {
   // const mobileView = useSelector((state) => state.mobileView.mobileView);

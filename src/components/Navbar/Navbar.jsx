@@ -1,8 +1,6 @@
 import React from "react";
 import Categories from "./Categories";
-import Subcategories from "./Subcategories";
 import heading from "../../assets/heading.png";
-import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   // const darkMode = useSelector((state) => state.mode.darkMode);

@@ -1,6 +1,4 @@
 import React from "react";
-import meta from "../../assets/meta.jpg";
-import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import parse from "html-react-parser";
 const Card = ({ darkMode, el }) => {

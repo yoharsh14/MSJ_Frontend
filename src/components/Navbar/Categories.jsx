@@ -1,6 +1,5 @@
 import React from "react";
-import { toggleMode } from "../../redux/Slice/ModeSlice";
-import { useDispatch, useSelector } from "react-redux";
+
 import { useNavigate } from "react-router-dom";
 
 const Categories = () => {

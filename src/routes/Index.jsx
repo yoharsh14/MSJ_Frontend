@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import SharedLayout from "../pages/SharedLayout";
 import Home from "../pages/Home/HomePage";
 import ArticlePage from "../pages/Article/ArticlePage";
-import Login from "../pages/auth/Login";
+// import Login from "../pages/auth/Login";
 import CategoryPage from "../pages/Category/CategoryPage";
 const Index = () => {
   return (
