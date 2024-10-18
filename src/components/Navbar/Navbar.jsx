@@ -8,7 +8,7 @@ const Navbar = () => {
   // const mobileView = useSelector((state) => state.mobileView.mobileView);
 
   return (
-    <div className="sticky top-0">
+    <div className="sticky top-10">
       <div className="w-full h-[2px] bg-slate-200"></div>
       <div className="flex-col w-full px-1 py-1  flex cursor-default sticky top-10 bg-white">
         <div onClick={() => navigate("/")}>

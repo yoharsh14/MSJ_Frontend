@@ -7,7 +7,7 @@ const ArticlePage = () => {
   // const articles = useSelector((state) => state.article.data);
   const { id } = useParams();
   const [article, setArticle] = useState(null);
-  const mobileView = useSelector((state) => state.mobileView.mobileView);
+  const mobileView = false;
   useEffect(() => {
     setArticle(articles ? articles.filter((el) => el._id == id) : null);
   }, []);
