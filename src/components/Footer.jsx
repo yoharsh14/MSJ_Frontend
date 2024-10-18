@@ -10,9 +10,9 @@ import { AiFillGoogleSquare } from "react-icons/ai";
 
 const Footer = () => {
   // const mobileView = useSelector((state) => state.mobileView.mobileView);
-  const mobileView = false;
+  const mobileView = true;
   return (
-    <div className="bg-slate-800 flex flex-col justify-start gap-3 h-full pb-20">
+    <div className="w-full bg-slate-800 flex flex-col justify-start gap-3 h-full pb-20">
       <div
         className={`flex justify-center ${
           mobileView ? "text-3xl" : "text-5xl"

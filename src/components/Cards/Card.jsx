@@ -6,7 +6,7 @@ const Card = ({ darkMode, el }) => {
   return (
     <>
       <div
-        className={`w-[22%] flex flex-col rounded-sm cursor-pointer mx-4 mb-2`}
+        className={`sm:w-[22%] flex flex-col rounded-sm cursor-pointer mx-4 mb-2`}
         onClick={() => {
           navigate(`/full/${el._id}`);
         }}
