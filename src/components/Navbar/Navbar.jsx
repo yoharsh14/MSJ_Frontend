@@ -2,7 +2,7 @@ import React from "react";
 import Categories from "./Categories";
 import heading from "../../assets/heading.png";
 import { useNavigate } from "react-router-dom";
-const Navbar = () => {
+const Navbar = ({ isMobile }) => {
   // const darkMode = useSelector((state) => state.mode.darkMode);
   const navigate = useNavigate();
   // const mobileView = useSelector((state) => state.mobileView.mobileView);
@@ -17,8 +17,11 @@ const Navbar = () => {
         {/* <button className="" onClick={() => navigate("/login")}>
           login
         </button> */}
-        <div className="w-full h-[2px] bg-slate-200"></div>
-        <Categories  />
+        {!isMobile ? (
+          <div className="w-full h-[2px] bg-slate-200">
+            <Categories />
+          </div>
+        ) : null}
       </div>
       {/* {!mobileView ? <Subcategories darkMode={darkMode} /> : null} */}
     </div>
