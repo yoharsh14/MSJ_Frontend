@@ -21,8 +21,8 @@ const Card = ({ darkMode, el }) => {
         />
         <div className={`flex flex-col justify-start`}>
           <div className="flex gap-2 text-red-700 font-medium text-sm">
-            {el.categories.slice(0, 2).map((cat) => (
-              <div>{cat.toUpperCase()}</div>
+            {el.categories.slice(0, 2).map((cat, index) => (
+              <div key={index}>{cat.toUpperCase()}</div>
             ))}
           </div>
           <div className="text-xl font-bold">{el.title}</div>

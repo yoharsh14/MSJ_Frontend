@@ -3,7 +3,7 @@ import { toggleMode } from "../../redux/Slice/ModeSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
-const Categories = ({ darkMode }) => {
+const Categories = () => {
   // const dispatch = useDispatch();
   // const mobileView = useSelector((state) => state.mobileView.mobileView);
   const navigate = useNavigate();

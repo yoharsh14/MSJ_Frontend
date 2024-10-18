@@ -8,13 +8,13 @@ import DeviceDetector from "../utils/DeviceDetector";
 import Categories from "../components/Navbar/Categories";
 const SharedLayout = () => {
   // const articles = useSelector((state) => state.article.data);
-  const isLoading = useSelector((state) => state.article.isLoading);
+  // const isLoading = useSelector((state) => state.article.isLoading);
   // const dispatch = useDispatch();
   // if (!articles) {
   //   dispatch(fetchArticles());
   // }
   // DeviceDetector();
-  const mobileView = useSelector((state) => state.mobileView.mobileView);
+  // const mobileView = useSelector((state) => state.mobileView.mobileView);
   return (
     <div>
       <Navbar />
@@ -24,8 +24,11 @@ const SharedLayout = () => {
           <Categories />
         </div>
       ) : null} */}
-      <div className={`${mobileView ? "mt-5" : "mt-10"} mb-10`}>
+      {/* <div className={`${mobileView ? "mt-5" : "mt-10"} mb-10`}>
         {isLoading ? <div>isLoading</div> : <Outlet />}
+      </div> */}
+      <div className="mt-10">
+        <Outlet />
       </div>
       <Footer />
     </div>

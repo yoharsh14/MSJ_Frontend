@@ -5,7 +5,7 @@ import heading from "../../assets/heading.png";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 const Navbar = () => {
-  const darkMode = useSelector((state) => state.mode.darkMode);
+  // const darkMode = useSelector((state) => state.mode.darkMode);
   const navigate = useNavigate();
   // const mobileView = useSelector((state) => state.mobileView.mobileView);
 
@@ -20,7 +20,7 @@ const Navbar = () => {
           login
         </button> */}
         <div className="w-full h-[2px] bg-slate-200"></div>
-        <Categories darkMode={darkMode} />
+        <Categories  />
       </div>
       {/* {!mobileView ? <Subcategories darkMode={darkMode} /> : null} */}
     </div>

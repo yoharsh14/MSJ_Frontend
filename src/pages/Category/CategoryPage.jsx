@@ -10,10 +10,8 @@ const CategoryPage = () => {
         {category.toUpperCase()}
       </div>
       <div className="flex flex-wrap gap-2 justify-start">
-        {articles.map((el) =>
-          el.categories.includes(category) ? (
-            <Card el={el} key={el._id} />
-          ) : null
+        {articles.map((el, index) =>
+          el.categories.includes(category) ? <Card el={el} key={index} /> : null
         )}
       </div>
     </div>

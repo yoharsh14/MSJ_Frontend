@@ -10,7 +10,8 @@ import { AiFillGoogleSquare } from "react-icons/ai";
 import { useSelector } from "react-redux";
 
 const Footer = () => {
-  const mobileView = useSelector((state) => state.mobileView.mobileView);
+  // const mobileView = useSelector((state) => state.mobileView.mobileView);
+  const mobileView = false;
   return (
     <div className="bg-slate-800 flex flex-col justify-start gap-3 h-full pb-20">
       <div
