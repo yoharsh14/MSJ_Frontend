@@ -9,8 +9,10 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const loginAPI = import.meta.env.VITE_LOGIN_API;
   const dispatch = useDispatch();
-  const data = useSelector((state) => state.user.data);
-  const isLoading = useSelector((state) => state.user.isLoading);
+  // const data = useSelector((state) => state.user.data);
+  // const isLoading = useSelector((state) => state.user.isLoading);
+  const data = null;
+  const isLoading = false;
   const onSubmitHandler = async (e) => {
     e.preventDefault();
     const credentials = {

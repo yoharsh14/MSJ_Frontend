@@ -2,10 +2,10 @@ import React, { useEffect } from "react";
 import Navbar from "../components/Navbar/Navbar";
 import { Outlet } from "react-router-dom";
 import Footer from "../components/Footer";
-import { fetchArticles } from "../redux/thunk/ArticleThunk";
-import { useSelector, useDispatch } from "react-redux";
-import DeviceDetector from "../utils/DeviceDetector";
-import Categories from "../components/Navbar/Categories";
+// import { fetchArticles } from "../redux/thunk/ArticleThunk";
+// import { useSelector, useDispatch } from "react-redux";
+// import DeviceDetector from "../utils/DeviceDetector";
+// import Categories from "../components/Navbar/Categories";
 const SharedLayout = () => {
   // const articles = useSelector((state) => state.article.data);
   // const isLoading = useSelector((state) => state.article.isLoading);
