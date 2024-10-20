@@ -139,7 +139,7 @@ Yield Guild Games is a decentralized autonomous organization (DAO) that focuses 
       "Open vs. Closed Metaverses: A Battle for the Future of Virtual Reality",
     highlight: "The metaverse, a collective virtual shared space...",
     imgUrl: "/images/image (34).jpg",
-    categories: ["sandbox", "upland", "decentraland", "metaverse"],
+    categories: [ "metaverse"],
     body: `<p>The metaverse, a collective virtual shared space, has been a subject of intense speculation and development in recent years. As technology advances, the concept of a digital universe where individuals can interact, work, and socialize is becoming increasingly tangible. However, the future of the metaverse hinges on a fundamental question: should it be open or closed?<br>
 <p className="text-lg font-bold  py-2">Understanding open or closed?</p>
 An open metaverse is a decentralized virtual world accessible to anyone. It operates on open-source protocols and standards, allowing for interoperability between different platforms. Users have significant control over their data and digital assets. In contrast, a closed metaverse is a proprietary virtual world controlled by a single entity. Access is typically restricted, and users must adhere to the platform's rules and regulations.<br>
