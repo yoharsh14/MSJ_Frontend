@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import Card from "../../components/Cards/Card";
 // import { useSelector } from "react-redux";
 // import { useNavigate } from "react-router-dom";
-import heroImage from "../../assets/heroImage.webp";
 import { articles } from "../../assets/json/articles.js";
 const Home = () => {
   // const darkMode = useSelector((state) => state.mode.darkMode);
@@ -17,7 +16,7 @@ const Home = () => {
       <div className="text-center text-3xl mb-5 font-semibold">Todays News</div>
       <div className="mb-10">
         <img
-          src={heroImage}
+          src="/images/heroImage.webp"
           alt=""
           width={1000}
           className="m-auto"
