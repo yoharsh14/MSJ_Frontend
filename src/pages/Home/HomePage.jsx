@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import Card from "../../components/Cards/Card";
 // import { useSelector } from "react-redux";
 // import { useNavigate } from "react-router-dom";
@@ -8,6 +9,9 @@ const Home = () => {
   // const darkMode = useSelector((state) => state.mode.darkMode);
   // const articles = useSelector((state) => state.article.data);
   // const at =
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className={` px-5`}>
       <div className="text-center text-3xl mb-5 font-semibold">Todays News</div>
