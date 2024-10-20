@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { articles } from "../../assets/json/articles";
 import Card from "../../components/Cards/Card";

@@ -7,9 +7,7 @@ const Categories = () => {
   // const mobileView = useSelector((state) => state.mobileView.mobileView);
   const navigate = useNavigate();
   return (
-    <div
-      className={`flex items-center font-light bg-slate-200 border-b-2`}
-    >
+    <div className={`flex items-center font-light bg-slate-200 border-b-2`}>
       <div className="flex w-full items-center justify-center gap-3 p-2 font-medium">
         <button
           className="cursor-pointer hover:text-slate-600 hover:scale-105 px-2"
@@ -43,7 +41,7 @@ const Categories = () => {
         </div>
         <div
           className="cursor-pointer hover:text-slate-600 hover:scale-105"
-          onClick={() => navigate("category/staff")}
+          onClick={() => navigate("staff")}
         >
           STAFF
         </div>
