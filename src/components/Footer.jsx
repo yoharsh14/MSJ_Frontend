@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  FaFacebookSquare,
-  FaTwitterSquare,
-  FaInstagramSquare,
-  FaLinkedin,
-  FaGithubSquare,
-} from "react-icons/fa";
+import { FaTwitterSquare, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { AiFillGoogleSquare } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
 
@@ -20,12 +14,15 @@ const Footer = ({ isMobile }) => {
           mobileView ? "text-3xl" : "text-5xl"
         } text-white gap-3 p-3`}
       >
-        <FaFacebookSquare />
-        <FaTwitterSquare />
-        <AiFillGoogleSquare />
-        <FaLinkedin />
-        <FaInstagramSquare />
-        <FaGithubSquare />
+        <a href="https://www.youtube.com/@TheMetaverseStreetJournal">
+          <FaYoutube />
+        </a>
+        <a href="https://x.com/Metaverseeditor">
+          <FaTwitterSquare />
+        </a>
+        <a href="https://www.linkedin.com/company/metaversenews/">
+          <FaLinkedin />
+        </a>
       </div>
       <div
         className={`flex ${
