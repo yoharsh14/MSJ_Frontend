@@ -46,8 +46,10 @@ const Footer = ({ isMobile }) => {
       {!mobileView ? (
         <div className="text-slate-400 flex justify-evenly py-6">
           <div>
-            <div className="text-white text-xl font-bold">MSJ Membership</div>
-            <ul className="flex flex-col gap-1 py-3">
+            <div className="text-white text-xl font-bold cursor-pointer">
+              MSJ Membership
+            </div>
+            <ul className="flex flex-col gap-1 py-3 cursor-pointer">
               <li onClick={() => navigate("/underWork")}>
                 The Journal Collection
               </li>
@@ -66,12 +68,12 @@ const Footer = ({ isMobile }) => {
           </div>
           <div className="border-l-2 border-gray-400 pl-2">
             <div
-              className="text-white text-xl font-bold"
+              className="text-white text-xl font-bold cursor-pointer"
               onClick={() => navigate("/UnderWork")}
             >
               Customer Service
             </div>
-            <ul className="flex flex-col gap-1 py-3">
+            <ul className="flex flex-col gap-1 py-3 cursor-pointer">
               <li onClick={() => navigate("/UnderWork")}>Customer Center</li>
               <li onClick={() => navigate("/UnderWork")}>Contact Us</li>
               <li onClick={() => navigate("/UnderWork")}>
@@ -81,12 +83,12 @@ const Footer = ({ isMobile }) => {
           </div>
           <div className="border-l-2 border-gray-400 pl-2">
             <div
-              className="text-white text-xl font-bold"
+              className="text-white text-xl font-bold cursor-pointer"
               onClick={() => navigate("/UnderWork")}
             >
               Tools & Features
             </div>
-            <ul className="flex flex-col gap-1 py-3">
+            <ul className="flex flex-col gap-1 py-3 cursor-pointer">
               <li onClick={() => navigate("/UnderWork")}>
                 Newsletters & Alerts
               </li>
@@ -101,12 +103,12 @@ const Footer = ({ isMobile }) => {
           </div>
           <div className="border-l-2 border-gray-400 pl-2">
             <div
-              className="text-white text-xl font-bold"
+              className="text-white text-xl font-bold cursor-pointer"
               onClick={() => navigate("/UnderWork")}
             >
               Ads
             </div>
-            <ul className="flex flex-col gap-1 py-3">
+            <ul className="flex flex-col gap-1 py-3 cursor-pointer">
               <li onClick={() => navigate("/UnderWork")}>Advertise</li>
               <li onClick={() => navigate("/UnderWork")}>
                 Commercial Real Estate Ads
@@ -120,12 +122,12 @@ const Footer = ({ isMobile }) => {
           </div>
           <div className="border-l-2 border-gray-400 pl-2">
             <div
-              className="text-white text-xl font-bold"
+              className="text-white text-xl font-bold cursor-pointer"
               onClick={() => navigate("/UnderWork")}
             >
               More
             </div>
-            <ul className="flex flex-col gap-1 py-3">
+            <ul className="flex flex-col gap-1 py-3 cursor-pointer">
               <li onClick={() => navigate("/UnderWork")}>About Us</li>
               <li onClick={() => navigate("/UnderWork")}>
                 Content Partnerships
@@ -138,10 +140,7 @@ const Footer = ({ isMobile }) => {
           </div>
         </div>
       ) : (
-        <div
-          className="flex flex-col gap-2 text-xl text-white justify-center items-center"
-          onClick={() => navigate("/UnderWork")}
-        >
+        <div className="flex flex-col gap-2 text-xl text-white justify-center items-center cursor-pointer">
           <div onClick={() => navigate("/UnderWork")}>MSJ Membership</div>
           <div onClick={() => navigate("/UnderWork")}>Customer Service</div>
           <div onClick={() => navigate("/UnderWork")}>Tools & Features</div>
