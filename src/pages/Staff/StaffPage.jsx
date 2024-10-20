@@ -1,12 +1,10 @@
 import React from "react";
-import TanPic from "../../assets/tanPic.png";
-import harshPic from "../../assets/harshPic.jpg";
 import { FaLinkedin } from "react-icons/fa6";
 const StaffPage = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-8">
       <div className=" flex flex-col justify-center items-center ">
-        <img src={TanPic} alt="" width={200} />
+        <img src="/images/tanPic.png" alt="" width={200} />
         <h1 className="text-lg font-semibold flex items-center gap-2">
           Tanmaya Sharma
           <a
@@ -19,7 +17,7 @@ const StaffPage = () => {
         <h2 className="text-center">Founder and CEO</h2>
       </div>
       <div className=" flex flex-col justify-center items-center">
-        <img src={harshPic} alt="" width={200} />
+        <img src="/images/harshPic.jpg" alt="" width={200} />
         <h1 className="text-lg font-semibold flex items-center gap-2">
           Harsh Dambhare
           <a
