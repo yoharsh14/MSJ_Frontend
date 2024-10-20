@@ -11,7 +11,23 @@ const ArticlePage = () => {
   useEffect(() => {
     setArticle(articles ? articles.filter((el) => el._id == id) : null);
   }, []);
-  console.log(article);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Function to check screen width
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768); // Adjust the width as per your need (e.g., 768px for mobile)
+    };
+
+    // Initial check
+    checkMobile();
+
+    // Add event listener on window resize
+    window.addEventListener("resize", checkMobile);
+
+    // Cleanup event listener on component unmount
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
   return (
     <div className="pb-10">
       {article ? (
@@ -23,15 +39,12 @@ const ArticlePage = () => {
           <h1 className="text-center text-5xl font-black">
             {article[0].title}
           </h1>
-          <div className="py-10">
-            <figure>
-              <img
-                // src={`${article[0].featuredImage.imgUrl}`}
-                src={article[0].imgUrl}
-                alt=""
-              />
-              {/* <figcaption>{article[0].featuredImage.imageCaption}</figcaption> */}
-            </figure>
+          <div className={`${isMobile ? "py-1" : "py-10"}`}>
+            <img
+              // src={`${article[0].featuredImage.imgUrl}`}
+              src={article[0].imgUrl}
+              alt=""
+            />
           </div>
           <div>{parse(article[0].body)}</div>
           <div className="pt-2">
