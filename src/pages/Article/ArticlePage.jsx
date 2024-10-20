@@ -7,13 +7,10 @@ const ArticlePage = () => {
   // const articles = useSelector((state) => state.article.data);
   const { id } = useParams();
   const [article, setArticle] = useState(null);
-  const mobileView = false;
+  const [isMobile, setIsMobile] = useState(false);
+  
   useEffect(() => {
     setArticle(articles ? articles.filter((el) => el._id == id) : null);
-  }, []);
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
     // Function to check screen width
     const checkMobile = () => {
       setIsMobile(window.innerWidth <= 768); // Adjust the width as per your need (e.g., 768px for mobile)
@@ -33,10 +30,10 @@ const ArticlePage = () => {
       {article ? (
         <div
           className={`${
-            mobileView ? "px-5" : "px-40"
+            isMobile ? "px-5" : "px-40"
           } flex flex-col justify-start items-center`}
         >
-          <h1 className="text-center text-5xl font-black">
+          <h1 className={` ${isMobile?"text-3xl":"text-5xl"} font-black pb-2`}>
             {article[0].title}
           </h1>
           <div className={`${isMobile ? "py-1" : "py-10"}`}>
