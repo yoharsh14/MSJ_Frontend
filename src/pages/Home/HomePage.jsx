@@ -13,7 +13,6 @@ const Home = () => {
   }, []);
   return (
     <div className={` px-5`}>
-      <div className="text-center text-3xl mb-5 font-semibold">Todays News</div>
       <div className="mb-10">
         <img
           src="/images/heroImage.webp"
@@ -25,6 +24,7 @@ const Home = () => {
           WoW Summit Bangkok 2024
         </p>
       </div>
+      <div className="text-center text-3xl mb-5 font-semibold">Upcoming Web3 Events</div>
       <div className="flex flex-wrap gap-2 justify-start">
         {articles ? (
           articles.map((el, index) => <Card key={index} el={el} />)
