@@ -1,5 +1,4 @@
 import React from "react";
-import underConstruction from "../../assets/underConstruct.gif";
 import { FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 const UnderWork = () => {
@@ -14,7 +13,7 @@ const UnderWork = () => {
           </h1>
         </div>
         <div className="font-extrabold text-md text-black text-start md:text-center">
-          <img src={underConstruction} alt="" className="m-auto" />
+          <img src="/images/underConstruct.gif" alt="" className="m-auto" />
           <div className="h-3"></div>
           You can visit us here on our Socials:
           <br /> The Metaverse Street Journal LinkedIn:
