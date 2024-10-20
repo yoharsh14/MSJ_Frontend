@@ -8,9 +8,9 @@ import {
 } from "react-icons/fa";
 import { AiFillGoogleSquare } from "react-icons/ai";
 
-const Footer = () => {
+const Footer = ({isMobile}) => {
   // const mobileView = useSelector((state) => state.mobileView.mobileView);
-  const mobileView = true;
+  const mobileView = isMobile;
   return (
     <div className="w-full bg-slate-800 flex flex-col justify-start gap-3 h-full pb-20">
       <div

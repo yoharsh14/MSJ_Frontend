@@ -49,7 +49,7 @@ const SharedLayout = () => {
       <div className="mt-10">
         <Outlet />
       </div>
-      <Footer />
+      <Footer isMobile={isMobile} />
     </div>
   );
 };
