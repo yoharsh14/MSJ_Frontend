@@ -7,10 +7,12 @@ import {
   FaGithubSquare,
 } from "react-icons/fa";
 import { AiFillGoogleSquare } from "react-icons/ai";
+import { useNavigate } from "react-router-dom";
 
-const Footer = ({isMobile}) => {
+const Footer = ({ isMobile }) => {
   // const mobileView = useSelector((state) => state.mobileView.mobileView);
   const mobileView = isMobile;
+  const navigate = useNavigate();
   return (
     <div className="w-full bg-slate-800 flex flex-col justify-start gap-3 h-full pb-20">
       <div
@@ -46,63 +48,104 @@ const Footer = ({isMobile}) => {
           <div>
             <div className="text-white text-xl font-bold">MSJ Membership</div>
             <ul className="flex flex-col gap-1 py-3">
-              <li>The Journal Collection</li>
-              <li>Subscription Options</li>
-              <li>Why Subscribe?</li>
-              <li>Corporate Subscription</li>
-              <li>MSJ Live</li>
-              <li>Commercial Partnerships</li>
+              <li onClick={() => navigate("/underWork")}>
+                The Journal Collection
+              </li>
+              <li onClick={() => navigate("/underWork")}>
+                Subscription Options
+              </li>
+              <li onClick={() => navigate("/UnderWork")}>Why Subscribe?</li>
+              <li onClick={() => navigate("/UnderWork")}>
+                Corporate Subscription
+              </li>
+              <li onClick={() => navigate("/UnderWork")}>MSJ Live</li>
+              <li onClick={() => navigate("/UnderWork")}>
+                Commercial Partnerships
+              </li>
             </ul>
           </div>
           <div className="border-l-2 border-gray-400 pl-2">
-            <div className="text-white text-xl font-bold">Customer Service</div>
+            <div
+              className="text-white text-xl font-bold"
+              onClick={() => navigate("/UnderWork")}
+            >
+              Customer Service
+            </div>
             <ul className="flex flex-col gap-1 py-3">
-              <li>Customer Center</li>
-              <li>Contact Us</li>
-              <li>Cancel My Subscription</li>
+              <li onClick={() => navigate("/UnderWork")}>Customer Center</li>
+              <li onClick={() => navigate("/UnderWork")}>Contact Us</li>
+              <li onClick={() => navigate("/UnderWork")}>
+                Cancel My Subscription
+              </li>
             </ul>
           </div>
           <div className="border-l-2 border-gray-400 pl-2">
-            <div className="text-white text-xl font-bold">Tools & Features</div>
+            <div
+              className="text-white text-xl font-bold"
+              onClick={() => navigate("/UnderWork")}
+            >
+              Tools & Features
+            </div>
             <ul className="flex flex-col gap-1 py-3">
-              <li>Newsletters & Alerts</li>
-              <li>Guides</li>
-              <li>Topics</li>
-              <li>Topics</li>
-              <li>RSS Feeds</li>
-              <li>Video Center</li>
-              <li>Watchlist</li>
-              <li>Visual Stories</li>
+              <li onClick={() => navigate("/UnderWork")}>
+                Newsletters & Alerts
+              </li>
+              <li onClick={() => navigate("/UnderWork")}>Guides</li>
+              <li onClick={() => navigate("/UnderWork")}>Topics</li>
+              <li onClick={() => navigate("/UnderWork")}>Topics</li>
+              <li onClick={() => navigate("/UnderWork")}>RSS Feeds</li>
+              <li onClick={() => navigate("/UnderWork")}>Video Center</li>
+              <li onClick={() => navigate("/UnderWork")}>Watchlist</li>
+              <li onClick={() => navigate("/UnderWork")}>Visual Stories</li>
             </ul>
           </div>
           <div className="border-l-2 border-gray-400 pl-2">
-            <div className="text-white text-xl font-bold">Ads</div>
+            <div
+              className="text-white text-xl font-bold"
+              onClick={() => navigate("/UnderWork")}
+            >
+              Ads
+            </div>
             <ul className="flex flex-col gap-1 py-3">
-              <li>Advertise</li>
-              <li>Commercial Real Estate Ads</li>
-              <li>Place a Classified Ad</li>
-              <li>Metaverse Land Ads</li>
-              <li>Blockchain Ads</li>
+              <li onClick={() => navigate("/UnderWork")}>Advertise</li>
+              <li onClick={() => navigate("/UnderWork")}>
+                Commercial Real Estate Ads
+              </li>
+              <li onClick={() => navigate("/UnderWork")}>
+                Place a Classified Ad
+              </li>
+              <li onClick={() => navigate("/UnderWork")}>Metaverse Land Ads</li>
+              <li onClick={() => navigate("/UnderWork")}>Blockchain Ads</li>
             </ul>
           </div>
           <div className="border-l-2 border-gray-400 pl-2">
-            <div className="text-white text-xl font-bold">More</div>
+            <div
+              className="text-white text-xl font-bold"
+              onClick={() => navigate("/UnderWork")}
+            >
+              More
+            </div>
             <ul className="flex flex-col gap-1 py-3">
-              <li>About Us</li>
-              <li>Content Partnerships</li>
-              <li>Corrections</li>
-              <li>New Archive</li>
-              <li>Register For Free</li>
-              <li>MSJ Shop</li>
+              <li onClick={() => navigate("/UnderWork")}>About Us</li>
+              <li onClick={() => navigate("/UnderWork")}>
+                Content Partnerships
+              </li>
+              <li onClick={() => navigate("/UnderWork")}>Corrections</li>
+              <li onClick={() => navigate("/UnderWork")}>New Archive</li>
+              <li onClick={() => navigate("/UnderWork")}>Register For Free</li>
+              <li onClick={() => navigate("/UnderWork")}>MSJ Shop</li>
             </ul>
           </div>
         </div>
       ) : (
-        <div className="flex flex-col gap-2 text-xl text-white justify-center items-center">
-          <div>MSJ Membership</div>
-          <div>Customer Service</div>
-          <div>Tools & Features</div>
-          <div>Ads</div>
+        <div
+          className="flex flex-col gap-2 text-xl text-white justify-center items-center"
+          onClick={() => navigate("/UnderWork")}
+        >
+          <div onClick={() => navigate("/UnderWork")}>MSJ Membership</div>
+          <div onClick={() => navigate("/UnderWork")}>Customer Service</div>
+          <div onClick={() => navigate("/UnderWork")}>Tools & Features</div>
+          <div onClick={() => navigate("/UnderWork")}>Ads</div>
         </div>
       )}
     </div>
