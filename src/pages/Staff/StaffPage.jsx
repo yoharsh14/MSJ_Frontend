@@ -1,6 +1,10 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa6";
+import { useEffect } from "react";
 const StaffPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="flex flex-col justify-center items-center gap-8">
       <div className=" flex flex-col justify-center items-center ">

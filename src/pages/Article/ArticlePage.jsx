@@ -8,7 +8,9 @@ const ArticlePage = () => {
   const { id } = useParams();
   const [article, setArticle] = useState(null);
   const [isMobile, setIsMobile] = useState(false);
-  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   useEffect(() => {
     setArticle(articles ? articles.filter((el) => el._id == id) : null);
     // Function to check screen width

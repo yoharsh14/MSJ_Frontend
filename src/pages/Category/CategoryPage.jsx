@@ -4,6 +4,9 @@ import { articles } from "../../assets/json/articles";
 import Card from "../../components/Cards/Card";
 const CategoryPage = () => {
   const { category } = useParams();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className={`px-5`}>
       <div className="text-center text-3xl mb-5 font-semibold">

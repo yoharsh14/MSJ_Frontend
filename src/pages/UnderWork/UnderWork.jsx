@@ -1,7 +1,11 @@
 import React from "react";
 import { FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { useEffect } from "react";
 const UnderWork = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="flex flex-col items-center justify-center min-h-screen px-4 lg:px-20 md:px-10 pt-10 pb-15 gap-5">
