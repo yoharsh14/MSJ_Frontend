@@ -18,7 +18,7 @@ const Home = () => {
       <div className="mb-10">
         <img src={heroImage} alt="" width={1200} className="m-auto" />
         <p className="text-center text-2xl font-semibold">
-          India Blockchain Summit
+          WoW Summit Bangkok 2024
         </p>
       </div>
       <div className="flex flex-wrap gap-2 justify-start">
