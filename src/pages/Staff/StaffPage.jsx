@@ -6,7 +6,7 @@ const StaffPage = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="flex flex-col justify-center items-center gap-8">
+    <div className="flex flex-col justify-center items-center gap-8 mb-5">
       <div className=" flex flex-col justify-center items-center ">
         <img src="/images/tanPic.png" alt="" width={200} />
         <h1 className="text-lg font-semibold flex items-center gap-2">
@@ -20,7 +20,7 @@ const StaffPage = () => {
         </h1>
         <h2 className="text-center">Founder and CEO</h2>
       </div>
-      <div className=" flex flex-col justify-center items-center">
+      {/* <div className=" flex flex-col justify-center items-center">
         <img src="/images/harshPic.jpg" alt="" width={200} />
         <h1 className="text-lg font-semibold flex items-center gap-2">
           Harsh Dambhare
@@ -32,7 +32,7 @@ const StaffPage = () => {
           </a>
         </h1>
         <h2 className="text-center">Web Developer</h2>
-      </div>
+      </div> */}
     </div>
   );
 };
